@@ -1,7 +1,7 @@
 # What is Kebernetes?
 #   "is a tool that used to ochestration containers" - manage thousand of containers easily
 
-# Kubenetes have 3 type of YAML
+# Kubenetes have 3 type of YAML configuration
 #   01. pod yaml
 #   02. service yaml
 #   03. deployment yaml
