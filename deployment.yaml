@@ -12,11 +12,11 @@ spec:
         app: sample-app-1
     spec:
       containers:
-      - name: sample-app-1
-        image: <Image>
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
-        ports:
-        - containerPort: 8080
+        - name: sample-app-1
+          image: <Image>
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
+          ports:
+            - containerPort: 8080

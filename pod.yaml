@@ -1,3 +1,10 @@
+# Kebernetes pod yaml
+# that have main 4 elements
+#   01. apiVersion
+#   02. kind
+#   03. metadata
+#   04. spec
+
 apiVersion: v1
 kind: Pod
 metadata:
@@ -6,22 +13,21 @@ metadata:
     name: myapp
 spec:
   containers:
-  - name: myapp
-    image: <Image>
-    resources:
-      limits:
-        memory: "128Mi"
-        cpu: "500m"
-    ports:
-      - containerPort: 8080
+    - name: myapp
+      image: <Image>
+      resources:
+        limits:
+          memory: "128Mi"
+          cpu: "500m"
+      ports:
+        - containerPort: 8080
 
 ---
-
 apiVersion: v1
 kind: Pod
 metadata:
   name: sample-app-1
-  labels: 
+  labels:
     name: sample-app-1
 spec:
 

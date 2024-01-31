@@ -6,5 +6,5 @@ spec:
   selector:
     app: myapp
   ports:
-  - port: 8989
-    targetPort: <Target Port>
+    - port: 8989
+      targetPort: <Target Port>

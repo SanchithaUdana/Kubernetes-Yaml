@@ -1,0 +1,14 @@
+# What is Kebernetes?
+#   "is a tool that used to ochestration containers" - manage thousand of containers easily
+
+# Kubenetes have 3 type of YAML
+#   01. pod yaml
+#   02. service yaml
+#   03. deployment yaml
+
+#  We can have features using Kubernetes
+#   01. Stability - high availability without downtime
+#   02. Disaster recovery
+#   03. Scalability
+#   04. High performance
+
