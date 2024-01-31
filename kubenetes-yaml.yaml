@@ -12,3 +12,8 @@
 #   03. Scalability
 #   04. High performance
 
+# What is Service
+# used for commucate in between pods and expose pods to networks private or public
+# service has permenant ip address
+
+# in pods has ip address too - that ip not permenant
