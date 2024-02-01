@@ -1,3 +1,10 @@
+# Kebernetes service yaml
+# that have main 4 elements
+#   01. apiVersion
+#   02. kind
+#   03. metadata
+#   04. spec
+
 apiVersion: v1
 kind: Service
 metadata:

@@ -1,3 +1,10 @@
+# Kebernetes deployment yaml
+# that have main 4 elements
+#   01. apiVersion
+#   02. kind
+#   03. metadata
+#   04. spec
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -12,7 +19,7 @@ spec:
         app: sample-app-1
     spec:
       containers:
-        - name: sample-app-1
+        - name: myapp
           image: <Image>
           resources:
             limits:
@@ -20,3 +27,21 @@ spec:
               cpu: "500m"
           ports:
             - containerPort: 8080
+
+        - name: myapp
+          image: <Image>
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
+          ports:
+            - containerPort: 8088
+
+        - name: myapp
+          image: <Image>
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
+          ports:
+            - containerPort: 8888
